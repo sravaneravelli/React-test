@@ -34,3 +34,51 @@ for(var i=3;i<=10;i=i+3)
 {
     console.log(i)
 }
+var i=0
+while(i<10)
+{
+    console.log(i);
+    i++;
+}
+//write a function for do while loop
+var w=1
+do {console.log(w)}
+while (w==0);
+//write a function to calculate the exponent of of number
+function exponent(n,e){
+    return n**e;
+}
+var res=exponent(2,3);
+console.log(res)
+//multipications of two numbers
+function multipications(g,h){
+    return g*h;
+
+}
+var rest=multipications(2,9);
+console.log(rest)
+//add of 3 numbers with functions key
+function multipication(l,k,j){
+    return l*k*j;
+}
+var cen=multipication(1,2,3);
+console.log(cen)
+//write a function to print a string
+function sk(n){
+    console.log(n)
+}
+sk ("sravan" )
+sk("name")
+sk('gsgsg')
+//declare an array
+var spec=[1,2,2,3,4]
+console.log(spec)
+//iterate array using for of loop
+for (var v of spec) 
+console.log(v)
+//declare of an object
+var dial={"name":"sravan","age":"22"}
+for(o in dial){
+console.log(o)
+console.log(dial[o])
+}
